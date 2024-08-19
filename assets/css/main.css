@@ -2135,21 +2135,15 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
-			width: 250px;
-			height: 266.66px;
-			align-content: center;
-			left: -50%;
 		}
 
 		.image.avatar:before {
 			display: none;
-			align-content: center;
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				width: 200%;
-				align-content: center;
 			}
 
 			
@@ -2629,8 +2623,14 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center; /* Centers the content horizontally */
+			justify-content: center; /* Centers the content vertically */
+			text-align: center; /* Ensures the text is centered */
+			
 		}
-
+		
 		#header strong, #header b {
 			color: #ececec;
 		}
@@ -2647,7 +2647,7 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
 
@@ -3086,7 +3086,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #5a2610;
-				background-image: url("images/overlay.png"), url("../../images/bg2.jpg");
+				background-image: url("../../images/bg2.jpg");
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3229,11 +3229,11 @@ input, select, textarea {
 	}
 
 	.profile-pic {
-		width: 250px; /* Adjust the size as needed */
-		height: 250px; /* Ensure height matches width to keep it circular */
+		width: 245px; /* Adjust the size as needed */
+		height: 245px; /* Ensure height matches width to keep it circular */
 		border-radius: 100%; /* This makes the image circular */
 		object-fit: cover; /* Ensures the image covers the circular area without distortion */
-		border: 2px solid #0a1420; /* Optional: Adds a border around the image */
+		border: 3px solid #0a1420; /* Optional: Adds a border around the image */
 		align-content: center;
 	}
 	
