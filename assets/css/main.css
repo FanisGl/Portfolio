@@ -2135,15 +2135,21 @@ input, select, textarea {
 
 		.image.avatar {
 			border-radius: 100%;
+			width: 250px;
+			height: 266.66px;
+			align-content: center;
+			left: -50%;
 		}
 
 		.image.avatar:before {
 			display: none;
+			align-content: center;
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				width: 200%;
+				align-content: center;
 			}
 
 			
@@ -2641,7 +2647,7 @@ input, select, textarea {
 		}
 
 		#header .image.avatar {
-			margin: 0 10.5em 2em 0;
+			margin: 0 0 2em 0;
 			width: 6.25em;
 		}
 
@@ -3223,11 +3229,12 @@ input, select, textarea {
 	}
 
 	.profile-pic {
-		width: 150px; /* Adjust the size as needed */
+		width: 250px; /* Adjust the size as needed */
 		height: 250px; /* Ensure height matches width to keep it circular */
 		border-radius: 100%; /* This makes the image circular */
 		object-fit: cover; /* Ensures the image covers the circular area without distortion */
 		border: 2px solid #0a1420; /* Optional: Adds a border around the image */
+		align-content: center;
 	}
 	
 	.header-text {
@@ -3236,13 +3243,13 @@ input, select, textarea {
 		border-radius: 8px; /* Rounds the corners of the box */
 		display: inline-block; /* Shrinks the box to fit the content */
 		color: #ffffff; /* Ensures the text is white for better readability */
-		max-width: 90%; /* Optional: Limits the width of the text box */
+		max-width: 100%; /* Optional: Limits the width of the text box */
 		margin-top: 5%;
 	}
 	
 	h1 {
 		margin: 0;
-		padding: 5%;
+		padding: 0%;
 		text-align: center; /* Centers the heading text */
 	}
 	
