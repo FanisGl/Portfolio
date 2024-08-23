@@ -1,4 +1,4 @@
-Home page that hosts my Portfolio: https//:fanisgl.github.io/portfolio
+Home page that hosts my Portfolio: https://fanisgl.github.io/portfolio
 
 *Page and HTML theme framework credit*: 
 Strata by HTML5 UP
